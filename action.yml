@@ -1,13 +1,13 @@
-name: Hello, World!
+name: Hello, World Coinfabrik!!!
 description: Greet someone and record the time
-author: GitHub Actions
+author: nf_cf
 
 # Define your inputs here.
 inputs:
   who-to-greet:
     description: Who to greet
     required: true
-    default: World
+    default: Ariel
 
 # Define your outputs here.
 outputs:
