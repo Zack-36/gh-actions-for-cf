@@ -8,5 +8,8 @@ echo "::notice file=entrypoint.sh,line=7::$GREETING"
 
 # Write outputs to the $GITHUB_OUTPUT file
 echo "greeting=$GREETING" >> "$GITHUB_OUTPUT"
+cd target
+ls -ltr *
+cat test.toml
 
 exit 0
