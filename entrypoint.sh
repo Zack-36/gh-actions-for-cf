@@ -10,6 +10,6 @@ echo "::notice file=entrypoint.sh,line=7::$GREETING"
 echo "greeting=$GREETING" >> "$GITHUB_OUTPUT"
 cd target
 ls -ltr *
-cat test.toml
+cat test.toml >> "$GITHUB_OUTPUT"
 
 exit 0
